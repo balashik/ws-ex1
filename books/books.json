@@ -1,0 +1,36 @@
+{
+	"books":[
+		{
+			"id":1,
+			"name":"A Song of Ice and Fire",
+			"author":"George R. R. Martin",
+			"Genre":"fantasy",
+			"bestSellerForMonth":"January",
+			"price":10
+		},
+		{
+			"id":2,
+			"name":"50 shades of grey",
+			"author":"E. L. James",
+			"Genre":"romance",
+			"bestSellerForMonth":"February",
+			"price":20
+		},
+		{
+			"id":3,
+			"name":"The Lord of the Rings",
+			"author":"J. R. R. Tolkien",
+			"Genre":"fantasy",
+			"bestSellerForMonth":"March",
+			"price":30
+		},
+		{
+			"id":4,
+			"name":"Harry Potter",
+			"author":"J. K. Rowling",
+			"Genre":"fantasy",
+			"bestSellerForMonth":"April",
+			"price":40
+		}
+	]
+}
