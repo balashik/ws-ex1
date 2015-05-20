@@ -7,7 +7,7 @@ myApp.get('/',function (req,res){
 
 });
 
-
+//getting all the books
 myApp.get('/getAllBooks',function (req,res){
 	res.send('all inventory: ' + myBooks.getAllBooks());
 
@@ -34,5 +34,8 @@ myApp.get('/bestSellerOfMonth/:month',function (req,res){
 });
 
 
-myApp.listen(8080);
-console.log('listeninng');
+//port listening 
+var PORT = process.env.PORT || 3000;
+myApp.listen(PORT, function(){
+    console.log('App ready on port: ' + PORT);
+});
