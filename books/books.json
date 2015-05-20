@@ -31,6 +31,14 @@
 			"Genre":"fantasy",
 			"bestSellerForMonth":"April",
 			"price":40
+		},
+		{
+			"id":5,
+			"name":"The Hunger Games",
+			"author":"Suzanne Collins",
+			"Genre":"Adventure",
+			"bestSellerForMonth":"March",
+			"price":50
 		}
 	]
 }

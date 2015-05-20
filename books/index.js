@@ -25,14 +25,16 @@ exports.getBookById = function (id){
 
 }
 
-//searching book by month (best seller month)
+//searching book by month (best seller month) can be more then one
 exports.getAllBestSellersAtMonth = function(month){
-
+	var bookArr = [];
 	for(var i = 0; i <books.length; i++){
 		if(books[i].bestSellerForMonth.toLowerCase() == month.toLowerCase()){
-			return JSON.stringify(books[i]);
+			bookArr.push(books[i]);
 		}	
 	}
-
+	if(bookArr.length>0){
+		return JSON.stringify(bookArr);
+	}
 	return ('no data on this month');
 }
