@@ -6,7 +6,7 @@ myApp.get('/',function (req,res){
 	res.sendFile(__dirname + '/index.html');
 
 });
-/*
+
 //getting all the books
 myApp.get('/getAllBooks',function (req,res){
 	res.send('all inventory: ' + myBooks.getAllBooks());
@@ -32,7 +32,7 @@ myApp.param('month' , function(req, res, next, value){
 myApp.get('/bestSellerOfMonth/:month',function (req,res){
 	res.send('requested book is: '+ req.bestSeller);
 });
-*/
+
 
 //port listening 
 var PORT = process.env.PORT || 3000;
