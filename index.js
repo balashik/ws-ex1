@@ -9,7 +9,7 @@ myApp.get('/',function (req,res){
 
 //getting all the books
 myApp.get('/getAllBooks',function (req,res){
-	res.send('all inventory: ' + myBooks.getAllBooks());
+	res.send('all inventory: '+ myBooks.getAllBooks());
 
 });
 

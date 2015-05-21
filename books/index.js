@@ -10,7 +10,7 @@ fs.readFile(__dirname + '/books.json','utf8',function (err,data){
 
 exports.getAllBooks = function (){
 
-	return books;
+	return JSON.stringify(books);
 
 }
 
