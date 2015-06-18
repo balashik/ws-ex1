@@ -3,7 +3,7 @@ var myBooks = require('./books');
 var myApp = express();
 
 
-app.use(function(req,res,next){
+myApp.use(function(req,res,next){
 	//headers
 	res.header('Access-Control-Allow-Origin', '*');
 	res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
